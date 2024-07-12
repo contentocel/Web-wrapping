@@ -1,4 +1,3 @@
-# coding: utf-8
 
 import datetime
 import logging
@@ -70,5 +69,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-#a common Python idiom used to ensure that certain code only runs when the script is executed directly, and not when it is imported as a module in another script. 
