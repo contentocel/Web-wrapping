@@ -45,7 +45,7 @@ def download_file(url, filepath):
     response = requests.get(url, headers={'X-FilesAPI-Key': 'XXX'})
     response.raise_for_status()
     response = response.json()
-    response = requests.get(response['download_uri'])
+    response = requests.get(response['XXX'])
     with open(filepath, 'wb') as f:
         f.write(response.content)
 
